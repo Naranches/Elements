@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="page">
+    <div class="page__container">
+
+        <h1 class="page__main-title mr_tp-41 ">Basic Elements</h1>
+
+        <div class="page__buttons mt_27 "> <!--секция для кнопок-->
+        <h2 class="page__sub-title">Buttons</h2>
+
+
+        <div class="mr-bt_54">
+        <h3 class="page__sub-title-buttons">Pick your style</h3>
+        <div class="mr-lf_200">
+        <button class="button button--primary "><span class="button__text-size"> REGULAR </span></button>
+        <button class="button button--primary button--round "><span class="button__text-size"> ROUND </span></button>
+        <button class="button button--primary button--with-icon"><img class="button__img-heart" src="img/ICON@2x.png"   alt=""> <span class="button__text-size"> WITH ICON </span></button>
+        <button class="button button--primary button--icon "><img class="button__img-heart" src="img/ICON@2x.png"   alt=""> <span class="button__text-size"> </span></button>
+        </div>
+        </div>
+
+        <div class="mr-bt_54">
+         <h3 class="page__sub-title-buttons" >Pick your size </h3>
+        <div class="mr-lf_200">
+        <button class="button button--x-small button--primary"> <span class="button__text-size"> X-SMALL </span> </button>
+        <button class="button button--small button--primary "><span class="button__text-size"> SMALL </span></button>
+        <button class="button button--primary "><span class="button__text-size"> REGULAR </span></button>
+        <button class="button button--large button--primary  "><span class="button__text-size"> LARGE</span></button>
+        </div>
+        </div>
+
+        <div class="mr-bt_54">
+        <h3 class="page__sub-title-buttons" >Pick your color </h3>
+        <div class="mr-lf_200">
+         <button class="button "><span class="button__text-color"> REGULAR </span></button>
+        <button class="button button--primary "><span class="button__text-color"> PRIMARY </span></button>
+        <button class="button button--info "><span class="button__text-color"> INFO </span></button>
+        <button class="button button--success "><span class="button__text-color"> SUCCESS </span></button>
+        <button class="button button--warning"><span class="button__text-color"> WARNING </span></button>
+        <button class="button button--danger"><span class="button__text-color"> DANGER </span></button>
+        </div>
+        </div>
+        </div>
+        <div class="mr-bt_54">  <!-- секция для ссылок-->
+            <h3 class="page__sub-title" >Links </h3>
+            <div class="mr-lf_200">
+                <div class="link "><span class="link__text"> REGULAR </span></div>
+                <div class="link  "><span class="link__text link--primary "> PRIMARY </span></div>
+                <div class="link  "><span class="link__text link--info "> INFO </span></div>
+                <div class="link  "><span class="link__text link--success "> SUCCESS </span></div>
+                <div class="link "><span class="link__text link--warning "> WARNING </span></div>
+                <div class="link "><span class="link__text link--danger"> DANGER </span></div>
+            </div>
+        </div>
+
+
+
+
+        <div class="page__inputs"><!-- секция для инпута-->
+        <h2 class="page__sub-title" >Inputs</h2>
+        <div class="input-wrapper">
+
+            <div class="input mr35 ">
+                <span class="input__add-text"></span>
+        <input class=" input__text" type="text" placeholder="Regular" >
+                </div>
+
+            <div class="input mr35">
+                <span class="input__add-text"></span>
+        <input class=" input__text" type="text" placeholder="With Floating Label" >
+                </div>
+
+            <div class="input mr35  ">
+                <span class="input__add-text input--success-add ">Success input</span>
+        <input class=" input__text input--success " type="text" value="Success">
+                </div>
+
+            <div class="input mr35">
+                <span class="input__add-text input--error-add ">Error input</span>
+        <input class=" input__text input--error " type="text" value="Error">
+                </div>
+        </div>
+
+        <div class="input-wrapper mt66">
+            <div class="input mr35 ">
+
+                <span class="input__add-text"></span>
+                <img class="input__img" src="img/people.png"  alt="">
+        <input  class="input__text input--width " type="text" placeholder="With material Icons " >
+                </div>
+<!--        отдельный класс задавать , чтобы отступ сделать?-->
+
+            <div class="input mr35  ">
+
+                <span class="input__add-text"></span>
+                <img class="input__img" src="img/people.png"  alt="">
+        <input class="input__text input--width  " type="text" placeholder="With Font Awesome Icons" >
+                </div>
+        </div>
+        </div>
+
+
+
+<!--      Этим 2 блокам (чекбокы и радиокнопки) я задаю обертку, чтобы потом их через флекс в ряд высроить?-->
+        <div class="page__control mt-118 ">
+
+        <div class="page__checkbox-item ">
+            <h2 class="page__sub-title mb-30 " >Checkboxes</h2>
+            <label class="checkbox "  >
+                <input class="checkbox__input" type="checkbox" id="checkbox">
+                <label class="checkbox__text" for="checkbox">Unchecked</label>
+            </label>
+            <label class="checkbox mt-14"  >
+                <input class="checkbox__input" type="checkbox" id="checkbox2" checked>
+                <label class="checkbox__text" for="checkbox2">Checked</label>
+            </label>
+            <label class="checkbox mt-14"  >
+                <input class="checkbox__input" type="checkbox" id="checkbox3" disabled>
+                <label class="checkbox__text" for="checkbox3">Disabled Unchecked</label>
+            </label>
+            <label class="checkbox mt-14"  >
+                <input class="checkbox__input" type="checkbox" id="checkbox4" chcked disabled>
+                <label class="checkbox__text" for="checkbox4">Disabled Checked</label>
+            </label>
+        </div>
+
+
+        <div class="page__radio-buttons-item">
+            <h2 class="page__sub-title mb-30  " >Radio Buttons</h2>
+            <label class="radio-buttons">
+                <input class="radio-buttons__input" type="radio"  id="radio" >
+                <label class="radio-buttons__text" for="radio" >Unchecked</label>
+            </label>
+            <label class="radio-buttons mt-8 ">
+                <input class="radio-buttons__input" type="radio" id="radio2" >
+                <label class="radio-buttons__text" for="radio2" >Checked</label>
+            </label>
+            <label class="radio-buttons mt-8">
+                <input class="radio-buttons__input" type="radio" id="radio3" >
+                <label class="radio-buttons__text" for="radio3" >Unchecked</label>
+            </label>
+            <label class="radio-buttons mt-8">
+                <input class="radio-buttons__input" type="radio" id="radio4" >
+                <label class="radio-buttons__text" for="radio4" >Unchecked</label>
+            </label>
+        </div>
+
+        <div class="page__switch-item">
+            <h2 class="page__sub-title mb-30  " >Toggles</h2>
+
+            <label class="switch mt-12">
+                <input class="switch__input" type="checkbox" id="toggle-1" checked>
+                <label class="switch__text" for="toggle-1">Toggle is on</label>
+            </label>
+
+            <label clas="switch  ">
+                <input class="switch__input" type="checkbox" id="toggle-2">
+                <label class="switch__text" for="toggle-2">Toggle is off</label>
+
+            </label>
+        </div>
+        </div>
+
+<!--===================МЕНЮ===================================-->
+        <div class="page__menus mt-118">
+
+
+            <div class="page__menus-item ">
+                <h2 class="page__sub-title" >menu</h2>
+
+                <div class="menu menu--width mt-30">
+                    <a class="menu__item-name " href="#">Menu</a>
+                    <a class="menu__item" href="#">link</a>
+                    <a class="menu__item" href="#">link</a>
+                    <a class="menu__item" href="#">  Dropdown <img class="menu__img-dropdown" src="img/dropdown.svg">  </a>
+                </div>
+<!--                <div>-->
+<!--                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eum ex fugiat, harum, illum molestiae natus neque nobis obcaecati perspiciatis ratione repellat soluta tempore voluptatum.-->
+
+<!--                </div>-->
+            </div>
+
+            <div class="page__menus-item ml_65 "  >
+                <h2 class="page__sub-title mb-30 " >menu-with-icons</h2>
+
+                <div class="menu  menu--width menu--color space-between ">
+                    <a class="menu__item-name menu__item-name-width" href="#">Icons</a>
+                    <a class="menu__item   " href="#"> <img class="menu__image " src="img/email-menu.png" alt=""> </a>
+                    <a class="menu__item" href="#"> <img class="menu__image " src="img/face-menu.png" alt=""> </a>
+                    <a class="menu__item " href="#"> <img class="menu__image " src="img/settings-menu.png" alt=""> <img class="menu__img-dropdown" src="img/dropdown.svg" > </a>
+                </div>
+            </div>
+        </div>
+        <h2  class="page__sub-title mt-50"  >Navigation</h2>
+    </div>
+
+
+
+    <div class="page__navigation mt_27 ">  <!--  секция для навигации-->
+        <div class="navigation-wrapper-color mt-20 ">
+            <div class="page__container">
+
+                <div class="navigation-wrapper  " >
+
+                    <div class="navigation-wrapper__title">
+                        <a class="navigation-wrapper__item-name " href="#">Primary Color</a>
+                    </div>
+
+                    <div class="navigation-wrapper__links">
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/discover.png" alt=""> <span class="navigation-wrapper__text" >discover</span> </a>
+            <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/prifile.png" alt=""> <span class="navigation-wrapper__text" >profile</span></a>
+            <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/settings.png" alt=""> <span class="navigation-wrapper__text" >settings</span> </a>
+                    </div>
+
+            </div>
+        </div>
+
+
+        </div>
+        <div class="navigation-wrapper-color mt-20 navigation-wrapper-color--info ">
+            <div class="page__container">
+
+                <div class="navigation-wrapper" >
+
+                    <div class="navigation-wrapper__title">
+                        <a class="navigation-wrapper__item-name " href="#">Info Color</a>
+                    </div>
+
+                    <div class="navigation-wrapper__links">
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="" alt=""> <span class="navigation-wrapper__text" >discover</span> </a>
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="" alt=""> <span class="navigation-wrapper__text" >profile</span></a>
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="" alt=""> <span class="navigation-wrapper__text" >settings</span> </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="navigation-wrapper-color mt-20 navigation-wrapper-color--success">
+            <div class="page__container">
+
+                <div class="navigation-wrapper" >
+
+                    <div class="navigation-wrapper__title">
+                        <a class="navigation-wrapper__item-name " href="#">Success Color</a>
+                    </div>
+
+                    <div class="navigation-wrapper__links">
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/discover.png" alt=""> <span class="navigation-wrapper__text" ></span> </a>
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/prifile.png" alt=""> <span class="navigation-wrapper__text" ></span></a>
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/settings.png" alt=""> <span class="navigation-wrapper__text" ></span> </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="navigation-wrapper-color mt-20 navigation-wrapper-color--warning">
+            <div class="page__container">
+
+                <div class="navigation-wrapper" >
+
+                    <div class="navigation-wrapper__title">
+                        <a class="navigation-wrapper__item-name " href="#">Warning Color</a>
+                    </div>
+
+                    <div class="navigation-wrapper__links">
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/facebook.svg" alt=""> <span class="navigation-wrapper__text" ></span> </a>
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/twitter.svg" alt=""> <span class="navigation-wrapper__text" ></span></a>
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/google.svg" alt=""> <span class="navigation-wrapper__text" ></span> </a>
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/inst.svg" alt=""> <span class="navigation-wrapper__text" ></span> </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="navigation-wrapper-color mt-20 navigation-wrapper-color--danger">
+            <div class="page__container">
+
+                <div class="navigation-wrapper" >
+
+                    <div class="navigation-wrapper__title">
+                        <a class="navigation-wrapper__item-name " href="#">Danger Color</a>
+                    </div>
+
+                    <div class="navigation-wrapper__links">
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/facebook.svg" alt=""> <span class="navigation-wrapper__text" >share</span> </a>
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/twitter.svg" alt=""> <span class="navigation-wrapper__text" >tweet</span></a>
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/printers.svg" alt=""> <span class="navigation-wrapper__text" >pin</span> </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="navigation-wrapper-color mt-20 navigation-wrapper-color--height navigation-wrapper-color--transparent">
+            <div class="page__container">
+
+                <div class="navigation-wrapper" >
+
+                    <div class="navigation-wrapper__title">
+                        <a class="navigation-wrapper__item-name " href="#">Transparent</a>
+                    </div>
+
+                    <div class="navigation-wrapper__links">
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/facebook.svg" alt=""> <span class="navigation-wrapper__text" >facebook</span> </a>
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/twitter.svg" alt=""> <span class="navigation-wrapper__text" >twitter</span></a>
+                        <a class="navigation-wrapper__item " href="#"> <img class="navigation-wrapper__img" src="img/inst.svg" alt=""> <span class="navigation-wrapper__text" >instagram</span> </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+        <div class="page__tabs page__tabs--padding-bt  "> <!--секция для табов-->
+            <div class="page__container">
+
+                <div class="page__tab-wrapper header-height ">
+
+                    <div class="page__tab-item  ">
+                        <h3 class="page__sub-title mb-80 ">Tabs with Icons on Card</h3>
+
+                        <div class="tab width-tab ">
+                            <div class="tab__header">
+                                <nav class="tab__menu">
+
+                                    <a class="tab__link" href="">
+                                        <img class="tab__link-image" src="img/profile.png" alt="profile icon">
+                                        <span class="tab__link-text">Profile</span>
+                                    </a>
+
+                                    <a class="tab__link" href="">
+                                        <img class="tab__link-image" src="img/messg.png" alt="message icon">
+                                        <span class="tab__link-text">Messages</span>
+                                    </a>
+
+                                    <a class="tab__link" href="">
+                                        <img class="tab__link-image" src="img/setting.png" alt="settings icon">
+                                        <span class="tab__link-text">Settings</span>
+                                    </a>
+
+
+                                </nav>
+                            </div>
+                            <div class="tab__content">
+                                <p class="tab__text">
+                                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="page__tab-item mr-65 ">
+                        <h3 class="page__sub-title mb-80 ">Tabs on Plain Card</h3>
+
+                        <div class="tab width-tab tab--plain tab--danger ">
+                            <div class="tab__header  ">
+                                <nav class="tab__menu  ">
+
+                                    <a class="tab__link" href="">
+                                        <img class="tab__link-image" src="img/profile.png" alt="profile icon">
+                                        <span class="tab__link-text">Profile</span>
+                                    </a>
+
+                                    <a class="tab__link" href="">
+                                        <img class="tab__link-image" src="img/messg.png" alt="message icon">
+                                        <span class="tab__link-text">Messages</span>
+                                    </a>
+
+                                    <a class="tab__link" href="">
+                                        <img class="tab__link-image" src="img/setting.png" alt="settings icon">
+                                        <span class="tab__link-text">Settings</span>
+                                    </a>
+
+
+                                </nav>
+                            </div>
+                            <div class="tab__content">
+                                <p class="tab__text">
+                                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+</body>
+</html>

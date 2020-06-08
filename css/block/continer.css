@@ -1,0 +1,9 @@
+.page__control{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.page__menus{
+    display: flex;
+}

@@ -1,0 +1,110 @@
+
+
+
+
+
+    .button{
+        display: inline-block;
+        border: none;
+        background: #999999;
+        box-shadow: 0px 2px 2px rgba(153, 153, 153, 0.2);
+        border-radius: 3px;
+        padding: 13px 30px;
+
+        font-family: Roboto,sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+
+
+
+/*===============МОДИФИКАТОР ЦВЕТ==========================    */
+
+.button--primary{
+    background: #9C27B4;
+    box-shadow: 0px 2px 2px rgba(156, 39, 180, 0.2);
+}
+
+.button--info{
+    background: #03A9F4;
+    box-shadow: 0px 2px 2px rgba(3, 169, 244, 0.2);
+}
+
+.button--success{
+    background: #4CAF50;
+    box-shadow: 0px 2px 2px rgba(76, 175, 80, 0.2);
+}
+
+.button--warning{
+    background: #FBC02D;
+    box-shadow: 0px 2px 2px rgba(251, 192, 45, 0.2);
+}
+
+.button--danger{
+    background: #F44336;
+    box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.2);
+}
+
+
+
+
+/*==================МОДИФИКАТОР РАЗМЕРЫ========================*/
+
+.button--x-small{
+    padding: 5px 15px;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.button--small{
+    padding: 6px 20px 7px;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.button--large{
+    padding: 18px 36px 19px;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+/*================КРУГ=================*/
+
+.button--round{
+    background: #9C27B0;
+    box-shadow: 0px 2px 2px rgba(156, 39, 176, 0.2);
+    border-radius: 30px;
+}
+
+.button--with-icon{
+    background: #9C27B0;
+    box-shadow: 0px 2px 2px rgba(156, 39, 176, 0.2);
+    border-radius: 30px;
+}
+
+.button--icon{
+
+    background: #9C27B0;
+    box-shadow: 0px 2px 2px rgba(156, 39, 176, 0.2);
+    border-radius: 30px;
+    padding: 12px;
+
+}
+
+
+
+
+
+
+
+.button__img-heart{
+    vertical-align: bottom;
+    width: 17px;
+
+}

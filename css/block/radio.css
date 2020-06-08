@@ -1,0 +1,66 @@
+.page__radio-buttons-item{
+
+}
+
+
+.radio-buttons{
+    display: flex;
+}
+
+
+
+.radio-buttons__input{
+    position: absolute;
+    visibility: hidden;
+
+}
+
+
+
+
+.radio-buttons__text{
+
+    position: relative;
+    padding-left: 40px;
+    display: inline-block;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #AAAAAA;
+    vertical-align: bottom;
+
+
+}
+
+
+
+.radio-buttons__text:before{
+    content:url("");
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #757575;
+    border-radius: 100%;
+}
+
+.radio-buttons__text:after{
+    content: url("../../img/toggle.png") ;
+    display: inline-block;
+    position: absolute;
+    left: 2px;
+    top: 0;
+    width: 11px;
+    height: 18px;
+    visibility: hidden;
+
+}
+
+
+.radio-buttons__input:checked +.radio-buttons__text:after{
+    visibility: visible;
+}
+

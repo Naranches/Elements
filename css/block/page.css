@@ -1,0 +1,18 @@
+.page__container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.page__row{
+    margin: 54px 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, ul, li {
+    padding: 0;
+    margin: 0;
+}

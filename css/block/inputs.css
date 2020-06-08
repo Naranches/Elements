@@ -1,0 +1,86 @@
+.input-wrapper{
+    display: flex;
+
+
+}
+
+
+.input{
+
+    position: relative;
+
+}
+
+.input__text{
+    display: inline-block;
+    width: 262px;
+    padding: 6px 0 4px 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #555;
+    border: none;
+    border-bottom: 1px solid #999;
+
+}
+
+
+.input__add-text{
+    position: absolute;
+    top: -18px;
+    left: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+/*===================МоДИФИКТОРы ==================*/
+.input--success{
+
+
+    background: url("../../img/ICON.png") no-repeat 100% 50% / 24px 24px;
+    color: #555555;
+
+}
+
+
+.input--error{
+
+
+    background: url("../../img/error.png") no-repeat 100% 50% / 24px 24px;
+    color: #555555;;
+
+}
+
+
+.input--success-add{
+
+    color: #4CAF50;
+}
+
+
+
+.input--error-add {
+    color: #F44336;
+}
+
+
+
+
+
+.input__img{
+    width: 20px;
+    vertical-align: middle;
+}
+
+
+.input--width{
+
+    width: 213px;
+
+}
+
+.input__text::-webkit-input-placeholder {color:#999999; opacity:1;}/* webkit */
+.input__text::-moz-placeholder          {color:#999999; opacity:1;}/* Firefox 19+ */
+.input__text::-moz-placeholder           {color:#999999; opacity:1;}/* Firefox 18- */
+.input__text::-ms-input-placeholder      {color:#999999; opacity:1;}/* IE */

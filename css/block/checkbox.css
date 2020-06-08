@@ -1,0 +1,74 @@
+.page__checkbox-item{
+
+}
+
+
+.checkbox{
+    display: flex;
+}
+
+
+.checkbox__input{
+
+    position: absolute;
+    visibility: hidden;
+}
+
+
+
+.checkbox__text{
+
+    position: relative;
+    padding-left: 40px;
+    display: inline-block;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #AAAAAA;
+    vertical-align: bottom;
+
+
+
+}
+
+
+
+.checkbox__text:before{
+    content:url("");
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #757575;
+    border-radius: 3px;
+}
+
+.checkbox__text:after{
+    content: url("../../img/blueicon.png") ;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 11px;
+    height: 18px;
+    visibility: hidden;
+}
+
+
+.checkbox__input:checked + .checkbox__text:after{
+    visibility: visible;
+
+}
+
+
+
+.checkbox__input:disabled + .checkbox__text::before {
+    border: 1px solid rgba(0, 0, 0, 0.26);
+}
+
+.checkbox__input:disabled:checked + .checkbox__text::after {
+    border-color: rgb(229, 199, 234);
+}
